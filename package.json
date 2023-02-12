@@ -1,0 +1,22 @@
+{
+  "name": "lipystop-bot",
+  "version": "1.0.0",
+  "description": "Custom Discord bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lipystop99/Lipystop-BOT.git"
+  },
+  "author": "Lipystop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lipystop99/Lipystop-BOT/issues"
+  },
+  "homepage": "https://github.com/Lipystop99/Lipystop-BOT#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
+}
