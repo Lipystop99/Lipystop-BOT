@@ -13,9 +13,9 @@ class database {
         console.log("Core Done!")
         db = mysql.createConnection({
                 host: "localhost",
-                port: "3307",
+                port: "3306",
                 user: "botlogin",
-                password: "12AZ52hk45SDGF67",
+                password: "28l[2CEogPi9)SqM",
                 database: "botlogin",
                 charset: "utf8mb4"
             });

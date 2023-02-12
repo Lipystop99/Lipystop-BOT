@@ -8,11 +8,11 @@ const con = mysql.createConnection({
 
     host: "localhost",
 
-    port: "3307",
+    port: "3306",
 
     user: "botlogin",
 
-    password: "12AZ52hk45SDGF67",
+    password: "28l[2CEogPi9)SqM",
 
     database: "botlogin",
 

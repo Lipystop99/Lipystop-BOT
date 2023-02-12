@@ -1,9 +1,9 @@
 module.exports = client => {
   let botStatus = [
     `${client.guilds.cache.size} szerveren`,
-    "/cmds",
+    "##cmds",
     `Több mint ${client.users.cache.size} felhasználó!`,
-    `Jelenleg 0.1.0-ás verzió!`
+    `Jelenleg 1.0.2-es verzió!`
 ]
 
     setInterval(function() {
