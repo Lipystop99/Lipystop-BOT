@@ -1,0 +1,8 @@
+module.exports = {
+    name: "netherportal",
+    category: "képes",
+    run: async (client, message, args) => {
+        message.delete();
+        message.channel.send(`<:obsidian:789475925527756800><:obsidian:789475925527756800><:obsidian:789475925527756800><:obsidian:789475925527756800>\n<:obsidian:789475925527756800><a:portaln:789475968292487188><a:portaln:789475968292487188><:obsidian:789475925527756800>\n<:obsidian:789475925527756800><a:portaln:789475968292487188><a:portaln:789475968292487188><:obsidian:789475925527756800>\n<:obsidian:789475925527756800><a:portaln:789475968292487188><a:portaln:789475968292487188><:obsidian:789475925527756800>\n<:obsidian:789475925527756800><:obsidian:789475925527756800><:obsidian:789475925527756800><:obsidian:789475925527756800>`);
+    }
+}

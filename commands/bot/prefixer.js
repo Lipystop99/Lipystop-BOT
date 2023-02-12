@@ -10,7 +10,7 @@ const con = mysql.createConnection({
 
     host: "localhost",
 
-    port: "3306",
+    port: "3307",
 
     user: "botlogin",
 
@@ -42,7 +42,8 @@ module.exports = {
 
         
 
-        con.query(`SELECT * FROM prefixes WHERE Serverid = ${message.guild.id}`, (err, rows) => {
+        con.query(`SELECT * FROM prefixes WHERE ServerID = ${message.guild.id}`, (err, rows) => {
+          console.log(message.guild.id)
 
           if(err) throw err;
 
@@ -82,7 +83,7 @@ module.exports = {
 
           .setColor('#5865f2')
 
-          .setDescription(`**Nem lehet ugyanaz a prefix** (${rows[0].Prefix})`)
+          .setDescription(`**Nem lehet ugyanaz a prefix** (${rows[0].prefix})`)
 
           if(args[0] === rows[0].prefix) return message.channel.send({embed: notnewprefix})
 
